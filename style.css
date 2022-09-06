@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+}
+
+
+
+img{
+    width: 80%;
+}
+
+body{
+    width: 100%;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 90%;
+    padding-bottom: 0.2rem;
+    font-size: 1rem;
+}
+
+.about--section{
+    min-height:  60vh;
+    margin-bottom: 2rem;
+}
+
+.money--section{
+    min-height:  70vh;
+}
+
+.gifts-section{
+    min-height: 70vh;
+    margin-bottom: 1.5rem;
+}
+
+.agenda-section{
+    min-height: 60vh;
+}
+
+.card{
+    height: 100%;
+    max-width: 300px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background:#FAFAFA;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    margin: 0 1rem;
+}
+
+.btn{
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 50%;
+    background: #FF0008;
+}
+
+.btn-left{
+    left: 5%;
+}
+.btn-right{
+    right: 5%;
+}
+
+.card .speaker-container{
+    width: 100%;
+    object-fit: fill;
+
+}
+
+.card .speaker-container img{
+    width: 100%;
+}
+
+.card .speaker-time{
+    color: #FF0008;
+}
+
+
+.gifts-section img{
+    width: 60%;
+}
+.text-container{
+    width: 625px;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: end;
+    width: 50%;
+}
+
+.anonce{
+   text-align: center;
+   padding: 1.8rem 0rem;
+}
+
+
+
+.money-link{
+    background: #FF0008;
+    text-decoration: none;
+    color:#fff;
+    width: 190px;
+    text-align: center;
+    padding: 15px 38px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+footer{
+    min-height: 30vh;
+    padding: 0rem 5rem;
+    background: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer p span{
+    color: #FF0008;
+}
+
+footer li{
+   list-style: none;
+}
+
+footer li a{
+    text-decoration: none;
+    color: #fff;
+    font-style: normal;
+}
+
+
