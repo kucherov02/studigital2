@@ -69,11 +69,20 @@ section{
 
 .btn{
     position: absolute;
-    width: 3rem;
-    height: 3rem;
+    width: 3.5rem;
+    height: 3.5rem;
     border: none;
     border-radius: 50%;
     background: #FF0008;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn i{
+    color: #fff;
+    font-size: 1.5rem;
 }
 
 .btn-left{
@@ -154,6 +163,7 @@ footer li a{
     color: #fff;
     font-style: normal;
 }
+
 
 
 
