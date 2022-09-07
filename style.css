@@ -50,17 +50,20 @@ section{
     margin-bottom: 1.5rem;
 }
 
-.agenda-section{
-    min-height: 60vh;
+.agenda--section{
+    min-height: 40vh;
+    justify-content: center;
+    margin-bottom: 2rem;
 }
+
 
 .card{
     height: 100%;
-    max-width: 300px;
+    max-width: 400px;
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     background:#FAFAFA;
-    padding: 1.2rem;
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;
     gap: .6rem;
@@ -172,7 +175,12 @@ footer li a{
         padding: 1.3rem;
     }
 
+    .agenda--section{
+        min-height: 30vh;
+    }
+
     footer .links p{
         display: none;
     }
 }
+
