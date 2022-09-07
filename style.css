@@ -10,7 +10,14 @@
 
 
 img{
-    width: 80%;
+    width: 90%;
+}
+
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: end;
 }
 
 body{
@@ -24,7 +31,7 @@ section{
     flex-wrap: wrap;
     margin: auto;
     width: 90%;
-    padding-bottom: 0.2rem;
+    padding-bottom: 1rem;
     font-size: 1rem;
 }
 
@@ -34,11 +41,12 @@ section{
 }
 
 .money--section{
-    min-height:  70vh;
+    min-height:  30vh;
+    padding-bottom: .5rem;
 }
 
 .gifts-section{
-    min-height: 70vh;
+    min-height: 40vh;
     margin-bottom: 1.5rem;
 }
 
@@ -91,7 +99,7 @@ section{
 
 
 .gifts-section img{
-    width: 60%;
+    width: 80%;
 }
 .text-container{
     width: 625px;
@@ -102,13 +110,7 @@ section{
 }
 
 
-.img-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: end;
-    width: 50%;
-}
+
 
 .anonce{
    text-align: center;
@@ -131,7 +133,7 @@ section{
 
 footer{
     min-height: 30vh;
-    padding: 0rem 5rem;
+    padding: 0rem 3rem;
     background: #000;
     color: #fff;
     display: flex;
@@ -154,3 +156,13 @@ footer li a{
 }
 
 
+
+@media (max-width: 750px) {
+    section{
+        padding: 1.3rem;
+    }
+
+    footer .links p{
+        display: none;
+    }
+}
